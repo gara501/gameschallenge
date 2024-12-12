@@ -1,0 +1,97 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'InterRegular';
+  src: url('assets/fonts/static/Inter_18pt-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'InterBold';
+  src: url('assets/fonts/static/Inter_18pt-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'InterExtraBold';
+  src: url('assets/fonts/static/Inter_18pt-ExtraBold.ttf') format('truetype');
+  font-weight: bolder;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'InterLight';
+  src: url('assets/fonts/static/Inter_18pt-Light.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ParkinsansRegular';
+  src: url('assets/fonts/parkinsans/static/Parkinsans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ParkinsansExtraBold';
+  src: url('assets/fonts/parkinsans/static/Parkinsans-ExtraBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'JaroRegular';
+  src: url('assets/fonts/jaro/static/Jaro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* Luego puedes usarla en tus estilos */
+body {
+  font-family: 'ParkinsansRegular', sans-serif;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+  font-family: 'ParkinsansExtraBold', sans-serif;
+  text-transform: uppercase;
+  margin: 0 0 30px;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3.5rem;
+}
+
+h4 {
+  font-size: 3rem;
+}
+
+h5 {
+  font-size: 2.5rem;
+}
+
+h6 {
+  font-size: 2rem;
+  font-family: 'JaroRegular', sans-serif;
+}
+
+p {
+  font-size: 1.3rem;
+  font-family: 'ParkinsansRegular', sans-serif;
+}

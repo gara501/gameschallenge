@@ -1,0 +1,59 @@
+[
+  {
+    "title": "Pong",
+    "url": "http://www.google.com",
+    "description": "The classic pong game",
+    "objectives": [
+      "Scenes interaction",
+      "Basic Game flow: Intro, GameOver",
+      "Music and Sounds",
+      "Counter",
+      "2D animations, basic Physics."
+    ]
+  },
+  {
+    "title": "Memory",
+    "url": "http://www.google.com",
+    "description": "Cards Memory Game",
+    "objectives": [
+      "Images management",
+      "Game Scenes Flow",
+      "Music and Sounds",
+      "Game Logic, Arrays",
+      "2D animations, Mouse interactions."
+    ]
+  },
+  {
+    "title": "Mario Clone",
+    "url": "http://www.google.com",
+    "description": "It is like Mario, but...",
+    "objectives": [
+      "Sprites management",
+      "Cameras",
+      "Music and Sounds",
+      "Tilesets, pixelart",
+      "2D animations, keyboard interactions.",
+      "Physics, gravity, collisions."
+    ]
+  },
+  {
+    "title": "Simon Says",
+    "url": "http://www.google.com",
+    "description": "Memory, memory.",
+    "objectives": [
+      "Scene management",
+      "Arrays and C# in general",
+      "Music and Sounds",
+      "Score management",
+      "2D animations, mouse interactions."
+    ]
+  },
+  {
+    "title": "Coming Soon...",
+    "url": "http://www.google.com",
+    "description": "More games later.",
+    "objectives": ["More interesting items..."
+    
+    ]
+  }
+]
